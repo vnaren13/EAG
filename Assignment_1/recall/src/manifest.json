@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Recall — Your Reading Second Brain",
+  "version": "0.0.1",
+  "description": "Silently saves every article you read and gives you instant search across your reading history. 100% local, no cloud, no API keys.",
+  "minimum_chrome_version": "120",
+  "action": {
+    "default_title": "Recall — search your reading history",
+    "default_popup": "src/popup/index.html"
+  },
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "src/background/service_worker.ts",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/capture.ts"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "permissions": ["storage", "unlimitedStorage", "activeTab"],
+  "icons": {
+    "16": "public/icons/icon-16.png",
+    "48": "public/icons/icon-48.png",
+    "128": "public/icons/icon-128.png"
+  }
+}

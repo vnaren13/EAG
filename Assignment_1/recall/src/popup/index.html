@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recall</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <header>
+      <input
+        id="search"
+        type="search"
+        placeholder="Search your reading…"
+        autocomplete="off"
+        autofocus
+      />
+    </header>
+
+    <main id="results" role="listbox" aria-label="Search results"></main>
+
+    <footer>
+      <span id="stats-line" class="stats">—</span>
+      <button id="open-options" class="link">Settings</button>
+    </footer>
+
+    <script type="module" src="./popup.ts"></script>
+  </body>
+</html>

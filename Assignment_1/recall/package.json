@@ -1,0 +1,22 @@
+{
+  "name": "recall",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Local-first reading second-brain. Silently saves every article you read and gives you instant BM25 search across your reading history. No cloud, no signup, no API keys.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.25",
+    "@types/chrome": "^0.0.270",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "dexie": "^4.0.8"
+  }
+}

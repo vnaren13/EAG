@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recall — Settings</title>
+    <link rel="stylesheet" href="./options.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Recall</h1>
+      <p class="lede">
+        Recall stores everything you read on this device, in this browser, and
+        nowhere else. There is no account, no cloud, no analytics. Search runs
+        entirely in the extension's service worker.
+      </p>
+
+      <section>
+        <h2>Capture</h2>
+        <div class="row">
+          <label class="toggle">
+            <input type="checkbox" id="paused" />
+            <span>Pause capture (don't save new articles)</span>
+          </label>
+        </div>
+
+        <div class="row">
+          <label for="excluded">Excluded hosts</label>
+          <textarea
+            id="excluded"
+            rows="6"
+            placeholder="one host per line, e.g. mail.google.com"
+          ></textarea>
+          <p class="hint">
+            Suffix-matched. <code>google.com</code> excludes
+            <code>mail.google.com</code> too.
+          </p>
+        </div>
+
+        <div class="row">
+          <label for="min-chars">Minimum article length</label>
+          <input id="min-chars" type="number" min="100" step="100" />
+          <p class="hint">Articles shorter than this are skipped (in characters).</p>
+        </div>
+
+        <div class="row">
+          <button id="save" class="primary">Save settings</button>
+          <span id="save-status" class="status" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Your library</h2>
+        <p id="stats" class="stats">—</p>
+        <div class="row actions">
+          <button id="export">Export as JSON</button>
+          <button id="delete-all" class="danger">Delete everything</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Privacy</h2>
+        <ul class="privacy">
+          <li>Your reading history never leaves this browser.</li>
+          <li>Recall has <strong>no host permissions</strong> — it cannot fetch any URL on its own.</li>
+          <li>Recall has <strong>no telemetry</strong>. There is no remote endpoint.</li>
+          <li>Your data lives in IndexedDB, scoped to this extension. Uninstalling deletes it.</li>
+        </ul>
+      </section>
+    </main>
+    <script type="module" src="./options.ts"></script>
+  </body>
+</html>

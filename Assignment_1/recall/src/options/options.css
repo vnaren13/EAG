@@ -1,0 +1,72 @@
+:root {
+  --fg: #111418;
+  --fg-muted: #5f6368;
+  --bg: #f7f8fa;
+  --card: #ffffff;
+  --border: #e6e8ec;
+  --accent: #2563eb;
+  --danger: #b3261e;
+}
+body {
+  margin: 0;
+  font: 14px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+}
+main {
+  max-width: 680px;
+  margin: 36px auto;
+  padding: 32px 36px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+h1 { margin: 0 0 8px; font-size: 22px; }
+h2 {
+  margin: 24px 0 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg-muted);
+}
+.lede { color: #3c4043; margin: 0 0 16px; }
+.row { margin-bottom: 14px; }
+.row label { display: block; font-weight: 600; margin-bottom: 4px; }
+.row textarea, .row input[type="number"] {
+  width: 100%;
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+}
+.row textarea { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: 12px; }
+.row .hint { color: var(--fg-muted); font-size: 12px; margin: 4px 0 0; }
+.row .hint code { background: #eef0f3; padding: 1px 5px; border-radius: 4px; }
+
+.toggle { display: flex; align-items: center; gap: 8px; font-weight: 500; }
+.toggle input { width: 16px; height: 16px; }
+
+button {
+  font: inherit;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--fg);
+  cursor: pointer;
+}
+button:hover { background: #f1f3f5; }
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+button.primary:hover { filter: brightness(0.95); }
+button.danger { color: var(--danger); border-color: #f3c2c0; }
+button.danger:hover { background: #fdecec; }
+
+.actions { display: flex; gap: 10px; }
+.status { margin-left: 10px; color: #137333; font-size: 12px; }
+.stats { color: var(--fg-muted); }
+
+.privacy { padding-left: 18px; margin: 0; color: #3c4043; }
+.privacy li { margin-bottom: 4px; }
