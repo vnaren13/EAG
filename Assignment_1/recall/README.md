@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/406922f8-33b0-4f89-9457-7087a064d82c
+
 # Recall — Your Reading Second Brain
 
 > *"What was that thing about quantum computing I read last month?"* Recall silently saves every article you read in your browser, then gives you instant BM25 search across your entire reading history. **100% local. No cloud. No signup. No API keys.**
