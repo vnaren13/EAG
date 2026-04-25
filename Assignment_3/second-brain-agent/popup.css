@@ -1,0 +1,356 @@
+/* ============================================================
+   SECOND BRAIN AGENT — popup.css
+   aesthetic: dark terminal / CRT console, monospace-first,
+   semantic color coding for the reasoning chain.
+   ============================================================ */
+
+:root {
+  --bg:           #0b0d0c;
+  --bg-elev:      #12161a;
+  --bg-input:     #0d1012;
+  --border:       #1f262b;
+  --border-soft:  #161c20;
+
+  --text:         #d6dde3;
+  --text-dim:     #7a8890;
+  --text-mute:    #4b565c;
+
+  --accent:       #7cf3c1;   /* phosphor green */
+  --accent-glow:  rgba(124, 243, 193, 0.35);
+
+  --c-user:       #6cb6ff;   /* blue — user */
+  --c-reason:     #c99bff;   /* purple — LLM reasoning */
+  --c-call:       #ffbf66;   /* amber — tool call */
+  --c-result:     #9de07b;   /* lime — tool result */
+  --c-final:      #7cf3c1;   /* teal — final answer */
+  --c-error:      #ff6b6b;   /* red — error */
+  --c-step:       #5d6b73;   /* grey — meta */
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Consolas', monospace;
+  font-size: 12px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body { width: 480px; }
+
+/* CRT frame */
+.crt {
+  background: var(--bg);
+  padding: 14px;
+  background-image:
+    radial-gradient(ellipse at top, rgba(124, 243, 193, 0.04), transparent 60%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.015) 0px,
+      rgba(255, 255, 255, 0.015) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+}
+
+/* ---------- HEADER ---------- */
+
+.hdr {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.logo {
+  font-family: 'Major Mono Display', 'JetBrains Mono', monospace;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.tag {
+  font-size: 10px;
+  color: var(--text-mute);
+  letter-spacing: 0.5px;
+}
+
+/* ---------- SECTIONS ---------- */
+
+section { margin-bottom: 14px; }
+
+label {
+  display: block;
+  font-size: 9px;
+  color: var(--text-mute);
+  letter-spacing: 1.2px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+  gap: 4px;
+}
+
+input, textarea {
+  flex: 1;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent-glow);
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 11px;
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text);
+  border-radius: 2px;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  transition: all 0.12s;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  font-weight: 700;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: transparent;
+  color: var(--accent);
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.btn-mini {
+  padding: 5px 9px;
+  font-size: 10px;
+}
+
+#config-toggle {
+  margin-left: auto;
+  width: 28px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* ---------- CONFIG (collapsed by default after setup) ---------- */
+
+.config {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  border-radius: 2px;
+}
+
+.config.hidden {
+  display: none;
+}
+
+/* ---------- TRACE ---------- */
+
+.trace-wrap {
+  display: flex;
+  flex-direction: column;
+  max-height: 380px;
+}
+
+.trace-hdr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+}
+
+.trace-title {
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.trace-stats {
+  font-size: 10px;
+  color: var(--text-mute);
+  flex: 1;
+}
+
+.trace-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.trace {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 0 0 2px 2px;
+  padding: 10px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 220px;
+  max-height: 340px;
+  line-height: 1.55;
+  font-size: 11px;
+}
+
+.trace-empty {
+  color: var(--text-mute);
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.trace-entry {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-left: 2px solid var(--border);
+  background: rgba(255,255,255,0.015);
+  border-radius: 0 2px 2px 0;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-4px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.trace-entry .trace-label {
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  color: var(--text-mute);
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.trace-entry .trace-body {
+  color: var(--text);
+  word-break: break-word;
+  white-space: pre-wrap;
+  font-size: 11px;
+}
+
+.trace-user       { border-left-color: var(--c-user);   background: rgba(108, 182, 255, 0.06); }
+.trace-user .trace-label       { color: var(--c-user); }
+
+.trace-step       { border-left-color: var(--c-step);   background: transparent; padding: 2px 10px; margin-bottom: 4px; }
+.trace-step .trace-body        { color: var(--text-mute); font-size: 10px; font-style: italic; }
+
+.trace-reasoning  { border-left-color: var(--c-reason); background: rgba(201, 155, 255, 0.06); }
+.trace-reasoning .trace-label  { color: var(--c-reason); }
+
+.trace-tool-call  { border-left-color: var(--c-call);   background: rgba(255, 191, 102, 0.06); }
+.trace-tool-call .trace-label  { color: var(--c-call); }
+
+.trace-tool-result{ border-left-color: var(--c-result); background: rgba(157, 224, 123, 0.05); }
+.trace-tool-result .trace-label{ color: var(--c-result); }
+
+.trace-final      { border-left-color: var(--c-final);  background: rgba(124, 243, 193, 0.1); }
+.trace-final .trace-label      { color: var(--c-final); }
+.trace-final .trace-body       { color: var(--accent); }
+
+.trace-error      { border-left-color: var(--c-error);  background: rgba(255, 107, 107, 0.06); }
+.trace-error .trace-label      { color: var(--c-error); }
+.trace-error .trace-body       { color: var(--c-error); }
+
+/* JSON code blocks within trace */
+.trace-body code, .trace-body pre {
+  display: block;
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  padding: 4px 6px;
+  margin-top: 3px;
+  border-radius: 2px;
+  font-size: 10px;
+  overflow-x: auto;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+/* ---------- FOOTER ---------- */
+
+.ftr {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  gap: 6px;
+  font-size: 9px;
+  color: var(--text-mute);
+  letter-spacing: 0.5px;
+}
+
+.ftr b { color: var(--text-dim); font-weight: 500; }
+
+#status::before {
+  content: '●';
+  margin-right: 3px;
+  color: var(--text-mute);
+}
+
+#status.running::before {
+  color: var(--c-call);
+  animation: blink 1s ease-in-out infinite;
+}
+
+#status.done::before { color: var(--accent); }
+#status.error::before { color: var(--c-error); }
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* ---------- SCROLLBAR ---------- */
+
+.trace::-webkit-scrollbar { width: 6px; }
+.trace::-webkit-scrollbar-track { background: var(--bg); }
+.trace::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.trace::-webkit-scrollbar-thumb:hover { background: var(--text-mute); }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Major+Mono+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>Second Brain Agent</title>
+</head>
+<body>
+  <div class="crt">
+    <header class="hdr">
+      <div class="logo">SECOND::BRAIN</div>
+      <div class="tag">// agent v0.1 — powered by gemini</div>
+    </header>
+
+    <section class="config" id="config-section">
+      <label for="api-key-input">GEMINI_API_KEY</label>
+      <div class="row">
+        <input type="password" id="api-key-input" placeholder="paste key from aistudio.google.com" />
+        <button id="save-key-btn" class="btn-mini">save</button>
+      </div>
+      <label for="vault-input" style="margin-top:8px">OBSIDIAN_VAULT_NAME</label>
+      <div class="row">
+        <input type="text" id="vault-input" placeholder="e.g. SecondBrain" />
+        <button id="save-vault-btn" class="btn-mini">save</button>
+      </div>
+    </section>
+
+    <section class="input">
+      <label for="user-query">QUERY</label>
+      <textarea id="user-query" rows="3">Capture this page into my Obsidian vault. Include a 3-sentence TL;DR, 5-7 lowercase tags, a Key Ideas section with bullets, and any notable external links worth exploring.</textarea>
+      <div class="btn-row">
+        <button id="run-btn" class="btn-primary">▶ run agent</button>
+        <button id="stop-btn" class="btn-mini" disabled>■ stop</button>
+        <button id="config-toggle" class="btn-mini" title="Settings">⚙</button>
+      </div>
+    </section>
+
+    <section class="trace-wrap">
+      <div class="trace-hdr">
+        <span class="trace-title">AGENT_TRACE</span>
+        <span class="trace-stats" id="trace-stats">iter: 0 · msgs: 0</span>
+        <div class="trace-actions">
+          <button id="copy-btn" class="btn-mini" title="Copy full trace for submission">copy</button>
+          <button id="clear-btn" class="btn-mini">clear</button>
+        </div>
+      </div>
+      <div id="trace" class="trace">
+        <div class="trace-empty">// trace will stream here after you run the agent</div>
+      </div>
+    </section>
+
+    <footer class="ftr">
+      <span>tools: <b>4</b></span>
+      <span>·</span>
+      <span>model: <b id="model-label">gemini-2.5-flash</b></span>
+      <span>·</span>
+      <span id="status">idle</span>
+    </footer>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

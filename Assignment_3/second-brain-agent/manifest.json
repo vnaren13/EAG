@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Second Brain Agent",
+  "version": "0.1.0",
+  "description": "Agentic AI that captures web pages into your Obsidian vault. Watch the reasoning chain live.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Second Brain Agent"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
