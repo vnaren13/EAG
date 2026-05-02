@@ -1,0 +1,1 @@
+"""News Diffractor MCP tools."""

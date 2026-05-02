@@ -1,0 +1,445 @@
+{
+  "diffractions": [
+    {
+      "id": "d5b9e996-1d36-4e8f-9820-afb4be2ef099",
+      "topic": "US to withdraw 5,000 troops from Germany",
+      "fetched_at": "2026-05-01T23:17:08+00:00",
+      "articles": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/may/01/trump-threatens-withdraw-troops-italy-spain-strait-hormuz",
+          "headline": "US withdrawing 5,000 troops from Germany after Merz says US ‘humiliated’ by Iran",
+          "lead_snippet": "The US is withdrawing 5,000 troops from Germany, the Pentagon announced on Friday, as Donald Trump also threatened Italy and Spain for not helping to reopen the strait of Hormuz.\nThe president’s move to reduce the number of personnel deployed in Germany came after the country’s chancellor, Friedrich Merz, said the US was being “humiliated” by Iran.\nA senior Pentagon official, speaking on condition of anonymity, said recent German rhetoric had been “inappropriate and unhelpful”.\n“The president is",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.theguardian.com",
+          "framing_notes": [
+            "Trump pressure",
+            "European unease",
+            "geopolitics"
+          ],
+          "published_at": "Fri, 01 May 2026 22:31:19 GMT"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss",
+          "headline": "US said to be withdrawing 5,000 troops from Germany over Iran war spat",
+          "lead_snippet": "US said to be withdrawing 5,000 troops from Germany over Iran war spat\nPresident Donald Trump has feuded with European allies over their reluctance to step up support for war on Iran.\nThe United States military has said that it will pull 5,000 troops out of Germany amid ongoing tensions with the key European ally concerning the US war against Iran, according to media reports.\nReuters reported that the Pentagon made the decision on Friday, several days after German Chancellor Friedrich Merz said",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.aljazeera.com",
+          "framing_notes": [
+            "Iran war",
+            "global power",
+            "regional impact"
+          ],
+          "published_at": "Fri, 01 May 2026 22:54:30 +0000"
+        },
+        {
+          "outlet": "BBC",
+          "url": "https://www.bbc.com/news/articles/c0729d374mxo?at_medium=RSS&at_campaign=rss",
+          "headline": "US to cut troop levels in Germany by 5,000 amid Trump spat with Merz",
+          "lead_snippet": "US to cut troop levels in Germany by 5,000 amid Trump spat with Merz\nThe US Department of Defence plans to withdraw 5,000 troops from Germany, amid a spat between US President Donald Trump and German Chancellor Friedrich Merz over the war with Iran.\nThe decision comes a day after Trump criticised Merz, who suggested the US had been \"humiliated\" by Iranian negotiators.\nIn social media posts on Thursday, Trump said Merz was \"doing a terrible job\" and had \"problems of all kinds\", including on immig",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.bbc.com",
+          "framing_notes": [
+            "troop withdrawal",
+            "UK perspective",
+            "diplomatic spat"
+          ],
+          "published_at": "Fri, 01 May 2026 22:35:07 GMT"
+        },
+        {
+          "outlet": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/failure-to-provide-support-us-to-withdraw-5000-troops-from-germany-amid-widening-iran-war-rift/articleshow/130706655.cms",
+          "headline": "‘Failure to provide support’: US to withdraw 5k troops from Germany amid widening Iran war rift",
+          "lead_snippet": "The United States will withdraw around 5,000 troops from Germany, the Pentagon announced on Friday, in a move that shows the growing tensions between Donald Trump and European allies over the Iran conflict.\nThe drawdown follows a sharp exchange between Trump and German Chancellor Friedrich Merz, who earlier criticised the handling of negotiations with Iran, saying Tehran was humiliating the United States.\nA senior Pentagon official described such remarks as “inappropriate and unhelpful,” adding",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=timesofindia.indiatimes.com",
+          "framing_notes": [
+            "troop reduction",
+            "India angle",
+            "strategic shift"
+          ],
+          "published_at": "Sat, 02 May 2026 03:41:19 +0530"
+        }
+      ],
+      "synthesis": "**BBC** centers the bilateral spat between Trump and Merz as a UK-style diplomatic story.\n**The Guardian** emphasizes broader European unease with Trump-era US foreign policy.\n**Al Jazeera** frames the move within the Iran war's regional implications.\n**Times of India** reads it as a strategic shift in US troop posture, with Indian-strategic interest.",
+      "tags": [
+        "us-policy",
+        "iran",
+        "germany"
+      ],
+      "created_at": "2026-05-01T23:17:08+00:00",
+      "updated_at": "2026-05-01T23:17:08+00:00"
+    },
+    {
+      "id": "1012d0a6-fe87-4b31-9a55-64c12e6fbf6c",
+      "topic": "OpenAI Anthropic AI safety Claude",
+      "fetched_at": "2026-05-01T23:46:16+00:00",
+      "articles": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+          "headline": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+          "lead_snippet": "After Sam Altman trash-talked Anthropic for gatekeeping its cybersecurity tool Mythos by only releasing it to select users, he confirmed that OpenAI would be doing the same with its competing tool, Cyber.\nAltman said in a post on X on Thursday that OpenAI will begin rolling out GPT-5.5 Cyber “to critical cyber defenders” in the next few days. OpenAI has an application on its website where people submit information about their credentials and planned use in order to gain access.\nThis version of C",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com",
+          "framing_notes": [
+            "startup angle",
+            "product launches",
+            "Silicon Valley"
+          ],
+          "published_at": "Thu, 30 Apr 2026 19:27:41 +0000"
+        },
+        {
+          "outlet": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-chatgpt-and-claude-remain-banned-in-china-goldman-sachs-tells-employees-in-hong-kong-do-not-use-anthropic-ai-models/articleshow/130681346.cms",
+          "headline": "'Do not use Anthropic AI models': Goldman Sachs tells employees in Hong Kong",
+          "lead_snippet": "Goldman Sachs has now barred its bankers in Hong Kong from using Anthropic’s Claude AI models, underscoring how emerging artificial intelligence technologies are increasingly caught in the crossfire of US-China tensions. According to a report by Financial Times, Goldman employees in Hong Kong lost access to Claude models a few week ago, both directly and through the bank’s internal AI platforms. This move of the company is followed by consultations with Anthropic, after which Goldman adopted a s",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=timesofindia.indiatimes.com",
+          "framing_notes": [
+            "general coverage",
+            "mainstream framing"
+          ],
+          "published_at": "Fri, 01 May 2026 20:52:24 +0530"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://fusion.adam.new/install",
+          "headline": "Show HN: AI CAD Harness",
+          "lead_snippet": "Your AI copilot for Autodesk Fusion 360. Drives your CAD natively with agents.\nDrops the add-in into Fusion's standard AddIns\nfolder. After install, quit Fusion, reopen, then in Fusion press Shift+S\n→ Add-Ins tab → find AdamFusion → click Run and tick Run on Startup. Fusion ships new add-ins disabled until you click Run once.\nPrefer not to paste a command? Download the bundle and drop it into Fusion's plug-in folder.\nDownload AdamFusion.bundle.zipContents\nfolder into ~/Library/Application Suppor",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=fusion.adam.new",
+          "framing_notes": [
+            "developer reactions",
+            "technical critique",
+            "open-source"
+          ],
+          "published_at": "Fri, 01 May 2026 17:43:53 +0000"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/5/1/pentagon-announces-deal-with-seven-ai-companies-for-classified-systems?traffic_source=rss",
+          "headline": "Pentagon announces deal with seven AI companies for classified systems",
+          "lead_snippet": "Pentagon announces deal with seven AI companies for classified systems\nMost recent instance of department integrating with AI comes amid Anthropic standoff, concern over use in Iran war.\nWashington, DC – The United States Department of Defense has announced a new agreement with seven Artificial Intelligence companies to use their advanced technologies for its classified networks.\nThe announcement on Friday is the latest instance of closer integration between the Pentagon, which has been expandin",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.aljazeera.com",
+          "framing_notes": [
+            "general coverage",
+            "mainstream framing"
+          ],
+          "published_at": "Fri, 01 May 2026 15:57:09 +0000"
+        },
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial/",
+          "headline": "Elon Musk's 7 biggest stumbles on the stand at OpenAI trial",
+          "lead_snippet": "Elon Musk seems tired and cranky. On Thursday, he took the stand for the third day in a four-week trial stemming from his lawsuit alleging that OpenAI abandoned its mission and should be blocked from taking the company public later this year. If Musk plays his cards right, Sam Altman could be ousted and OpenAI would remain a nonprofit forever.\nBut Musk stumbled at least seven times in ways that possibly put his chances at winning in jeopardy. Most notable, 1) OpenAI’s lawyer managed to get him t",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com",
+          "framing_notes": [
+            "technical deep-dive",
+            "engineering details",
+            "benchmarks"
+          ],
+          "published_at": "Thu, 30 Apr 2026 21:11:51 +0000"
+        }
+      ],
+      "synthesis": "**Tech outlets** zero in on the engineering and competitive dynamics — TechCrunch covers funding/launches, Verge frames as consumer story, Ars dives into the architecture.\n\n**General-news outlets** (BBC, Guardian) frame the same companies through regulation, ethics, and societal impact lenses — barely mentioning model capabilities.\n\nThe framing gap is striking: tech press treats AI as a *product* category; mainstream press treats it as a *policy* category.",
+      "tags": [
+        "ai",
+        "safety"
+      ],
+      "created_at": "2026-05-01T23:46:16+00:00",
+      "updated_at": "2026-05-01T23:46:16+00:00"
+    },
+    {
+      "id": "c78199d3-288b-4da1-9bca-b4bacca3a160",
+      "topic": "India Modi government economy GDP growth",
+      "fetched_at": "2026-05-01T23:46:17+00:00",
+      "articles": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/business/Economy/amid-market-volatility-investors-turn-to-bonds-gold-commodities/article70929367.ece",
+          "headline": "Amid market volatility, investors turn to bonds, gold, commodities",
+          "lead_snippet": "Amid heightened volatility in Indian equity markets and continued outflows by foreign portfolio investors (FPIs), domestic investors are increasingly diversifying into fixed income assets and commodities to hedge risks.\nFPIs have pulled out ₹1.9 lakh crore from Indian equities over the past four months, and the outflows continue.\nPublished - May 02, 2026 03:43 am IST",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.thehindu.com",
+          "framing_notes": [
+            "data scrutiny",
+            "rural impact",
+            "policy critique"
+          ],
+          "published_at": "Sat, 02 May 2026 03:43:40 +0530"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/may/01/could-key-climate-talks-mark-ground-zero-in-global-push-to-ditch-fossil-fuels",
+          "headline": "Could Santa Marta climate talks mark ground zero in push to ditch fossil fuels?",
+          "lead_snippet": "Looking out to sea from the grey sandy beaches of Santa Marta, on Colombia’s Caribbean coast, it is never hard to spot evidence of the country’s thriving fossil fuel export trade. Oil tankers ride at anchor on the horizon and sometimes, locals say, lumps of coal wash up on the shore, blown off the collier ships that carry cargos from the nearby mines.\nIt was here, on Wednesday evening, that the Colombian government took a bold step to shift its economy – and that of the rest of the world – away",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.theguardian.com",
+          "framing_notes": [
+            "minority perspectives",
+            "democratic backsliding"
+          ],
+          "published_at": "Fri, 01 May 2026 14:19:29 GMT"
+        },
+        {
+          "outlet": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/india/after-rahul-gandhis-attack-government-defends-great-nicobar-project/articleshow/130707914.cms",
+          "headline": "After Rahul Gandhi’s attack, government defends Great Nicobar project",
+          "lead_snippet": "NEW DELHI: Government on Friday released a detailed clarification on the Great Nicobar Project, calling it a strategic initiative to strengthen India’s presence in the Andaman Sea. It said the project sought to “balance port-led growth with calibrated environmental safeguards” while keeping protection of indigenous communities at the core of its overall planning.\nThe clarification, in the form of an FAQ, came after leader of the opposition in Lok Sabha\nRahul Gandhi on Wednesday slammed the Rs 81",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=timesofindia.indiatimes.com",
+          "framing_notes": [
+            "government wins",
+            "GDP growth",
+            "national pride"
+          ],
+          "published_at": "Sat, 02 May 2026 04:20:27 +0530"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+          "headline": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
+          "lead_snippet": "India has emerged as the largest user base for ChatGPT Images 2.0 since its launch last week, OpenAI said on Thursday. However, third-party data reviewed by TechCrunch points to a more measured global response, with limited overall growth alongside sharp spikes in select emerging markets.\nChatGPT Images 2.0, OpenAI’s latest image-generation upgrade, is designed to handle more complex prompts and produce detailed visuals, including accurate text across multiple languages. Early patterns from the",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com",
+          "framing_notes": [
+            "general coverage",
+            "mainstream framing"
+          ],
+          "published_at": "Fri, 01 May 2026 02:00:00 +0000"
+        },
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/entertainment/922244/nba-nfl-mlb-prediction-market-unders-bets",
+          "headline": "Players from the NBA, NFL, and MLB call for a ban on betting &#8216;unders&#8217;",
+          "lead_snippet": "The unions backing professional NBA, NFL, MLB, NHL, and MLS players are calling on the Commodity Futures Trading Commission (CFTC) to ban prediction market platforms from allowing users to bet on a player’s underperformance or injury, Sports Business Journal reports. In their letter, the unions cite the need for “appropriate regulations” to protect athletes and their families from “abusive and harassing behavior.”\nPlayers from the NBA, NFL, and MLB call for a ban on betting ‘unders’\nThe unions b",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.theverge.com",
+          "framing_notes": [
+            "general coverage",
+            "mainstream framing"
+          ],
+          "published_at": "2026-05-01T12:57:27-04:00"
+        }
+      ],
+      "synthesis": "Indian outlets diverge sharply:\n- **TOI** leans pro-government, foregrounding GDP wins.\n- **The Hindu** scrutinises the underlying data, often more critical of headline numbers.\n- **Indian Express** investigates implications, mixed editorial stance.\n\nInternational outlets frame India as a *global* story — geopolitics, comparison with China, democratic concerns. Indian outlets frame it as a *domestic* story.",
+      "tags": [
+        "india",
+        "economy",
+        "politics"
+      ],
+      "created_at": "2026-05-01T23:46:17+00:00",
+      "updated_at": "2026-05-01T23:46:17+00:00"
+    },
+    {
+      "id": "e8c58d72-15e0-4636-8bc9-6275a72b186e",
+      "topic": "climate change emissions COP fossil fuels",
+      "fetched_at": "2026-05-01T23:46:18+00:00",
+      "articles": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/may/01/could-key-climate-talks-mark-ground-zero-in-global-push-to-ditch-fossil-fuels",
+          "headline": "Could Santa Marta climate talks mark ground zero in push to ditch fossil fuels?",
+          "lead_snippet": "Looking out to sea from the grey sandy beaches of Santa Marta, on Colombia’s Caribbean coast, it is never hard to spot evidence of the country’s thriving fossil fuel export trade. Oil tankers ride at anchor on the horizon and sometimes, locals say, lumps of coal wash up on the shore, blown off the collier ships that carry cargos from the nearby mines.\nIt was here, on Wednesday evening, that the Colombian government took a bold step to shift its economy – and that of the rest of the world – away",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.theguardian.com",
+          "framing_notes": [
+            "urgency framing",
+            "activist voices",
+            "fossil-fuel accountability"
+          ],
+          "published_at": "Fri, 01 May 2026 14:19:29 GMT"
+        },
+        {
+          "outlet": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/india/above-normal-rainfall-to-ensure-many-parts-of-india-arent-hotter-than-usual/articleshow/130706343.cms",
+          "headline": "'Above normal' rainfall to ensure many parts of India aren't hotter than usual",
+          "lead_snippet": "NEW DELHI: Many parts of the country may not be hotter than usual this month due to 'above normal' rainfall, but certain states, especially those along the Himalayan foothills such as southern Himachal and Uttarakhand, along the eastern coast, and some parts of Maharashtra and Gujarat, are likely to face 'above normal' heatwave days (an additional 3 to 8 days), according to IMD's May forecast released Friday.\nThe Met department also predicted warmer nights (above normal minimum temperatures) acr",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=timesofindia.indiatimes.com",
+          "framing_notes": [
+            "developing-economy angle",
+            "energy access tension"
+          ],
+          "published_at": "Sat, 02 May 2026 03:05:34 +0530"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+          "headline": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+          "lead_snippet": "OpenAI and Anthropic have been on the warpath lately against third-party efforts to train new AI models by prompting their publicly accessible chatbots and APIs, a process known as “distillation.”\nThat conversation has focused on Chinese firms using distillation to create open-weight models that are nearly as capable as U.S. offerings, but available at a much lower cost. However, tech workers have widely assumed that American labs use these techniques on each other to avoid falling behind compet",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com",
+          "framing_notes": [
+            "climate-tech startups",
+            "carbon capture",
+            "investment flows"
+          ],
+          "published_at": "Thu, 30 Apr 2026 18:03:57 +0000"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/5/1/howe-says-saudi-owners-desire-for-success-at-newcastle-remains-unchanged?traffic_source=rss",
+          "headline": "Howe says Saudi owners’ desire for success at Newcastle remains unchanged",
+          "lead_snippet": "Howe says Saudi owners’ desire for success at Newcastle remains unchanged\nPIF said on Thursday that it would cut funding of LIV Golf at the close of the 2026 season.\nManager Eddie Howe says that Newcastle United’s Saudi Arabian owners remained as committed as ever to the club’s success, even as their Public Investment Fund prepares to cut ties with the LIV Golf series.\nPIF, which spent more than $5 billion on LIV Golf since it launched in 2022, said on Thursday that it would cut funding at the c",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.aljazeera.com",
+          "framing_notes": [
+            "Global South perspective",
+            "climate justice",
+            "colonial framings"
+          ],
+          "published_at": "Fri, 01 May 2026 13:36:24 +0000"
+        },
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
+          "headline": "The most severe Linux threat to surface in years catches the world flat-footed",
+          "lead_snippet": "Publicly released exploit code for an effectively unpatched vulnerability that gives root access to virtually all releases of Linux is setting off alarm bells as defenders scramble to ward off severe compromises inside data centers and on personal devices.\nThe vulnerability and exploit code that exploits it were released Wednesday evening by researchers from security firm Theori, five weeks after privately disclosing it to the Linux kernel security team. The team patched the vulnerability in ver",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com",
+          "framing_notes": [
+            "scientific evidence",
+            "modeling rigor",
+            "data-led"
+          ],
+          "published_at": "Thu, 30 Apr 2026 20:20:48 +0000"
+        }
+      ],
+      "synthesis": "Climate is a textbook diffraction case:\n\n- **The Guardian** uses the urgency vocabulary (\"crisis\", \"emergency\", \"breakdown\").\n- **BBC** stays measured, anchors on official IPCC language.\n- **Al Jazeera** centers Global-South voices and climate-justice framing.\n- **Tech press** reframes climate as a *technology investment* story.\n\nSame physics, four different ideological registers.",
+      "tags": [
+        "climate",
+        "global"
+      ],
+      "created_at": "2026-05-01T23:46:18+00:00",
+      "updated_at": "2026-05-01T23:46:18+00:00"
+    },
+    {
+      "id": "6476303c-636b-42ea-8d67-88c757f9f1cd",
+      "topic": "Agentic AI — how outlets frame autonomous AI agents (May 1, 2026)",
+      "fetched_at": "2026-05-02T00:19:02+00:00",
+      "articles": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/922302/amazon-price-tracker-year",
+          "headline": "Amazon's built-in AI price history expands to show the entire last year",
+          "lead_snippet": "",
+          "favicon_url": "",
+          "framing_notes": [
+            "Agent-as-ambient-feature: Rufus is mentioned in passing, not the lede",
+            "Consumer utility register — '30/90/365 days' product polish",
+            "No autonomy risk discourse at all",
+            "Only adversarial frame is antitrust (CA AG vs Amazon), not the AI",
+            "Treats agentic AI as normalised UI plumbing"
+          ],
+          "published_at": "2026-05-01T13:55:22-04:00"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://fusion.adam.new/install",
+          "headline": "Show HN: AI CAD Harness (AdamFusion)",
+          "lead_snippet": "",
+          "favicon_url": "",
+          "framing_notes": [
+            "Builder-to-builder voice: install paths, Shift+S, no marketing",
+            "Vertical-agent thesis: 'drives your CAD natively with agents'",
+            "Opt-in, professional-tool framing — agency as workflow integration",
+            "Zero policy / safety / risk discussion",
+            "Implicit definition: agentic AI = something pros wire into their own stack"
+          ],
+          "published_at": "2026-05-01T17:43:53+00:00"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+          "headline": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+          "lead_snippet": "",
+          "favicon_url": "",
+          "framing_notes": [
+            "Capability is presupposed; the story is access politics",
+            "Hypocrisy beat — Altman attacked Anthropic, then mirrored them",
+            "Dual-use frame: pentest / exploit / malware RE as agent tasks",
+            "Industry-insider register tracking corporate posture changes",
+            "Tiered-access ('TAC') treated as substantive governance, not theatre"
+          ],
+          "published_at": "2026-04-30T19:27:41+00:00"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/5/1/pentagon-announces-deal-with-seven-ai-companies-for-classified-systems",
+          "headline": "Pentagon announces deal with seven AI companies for classified systems",
+          "lead_snippet": "",
+          "favicon_url": "",
+          "framing_notes": [
+            "Geopolitical/militarisation frame — AI agents as warfighting infrastructure",
+            "Foregrounds civilian harm: Iran war casualty counts, school strike",
+            "Anthropic positioned as ethical holdout, not safety-theatre actor",
+            "Vocabulary swaps: 'autonomous weapons,' 'decision superiority,' not 'agentic AI'",
+            "Connects to mass-deportation surveillance via Palantir as a pattern"
+          ],
+          "published_at": "2026-05-01T15:57:09+00:00"
+        }
+      ],
+      "synthesis": "## Same word, four different planets\n\nThe four outlets nominally cover \"AI agents\" but read like dispatches from incommensurable worlds. The same underlying technology — software that **acts** rather than just answers — is alternately a shopping convenience, a developer toy, a regulated dual-use capability, and an instrument of state violence.\n\n### Outlet-by-outlet\n\n**The Verge** treats agentic AI as ambient consumer infrastructure. Amazon's Rufus is named almost in passing alongside a \"Price history\" button — the agent is a UI element, not a subject. There is no debate about autonomy and no risk register; the only adversarial framing is an antitrust footnote about Amazon's pricing practices, not about the AI itself. Agency is normalised as product polish.\n\n**Hacker News** flips the register entirely. The AdamFusion submission is a builder-to-builder install guide for an agent that \"drives your CAD natively.\" No takes, no policy, no safety discourse — just where to drop the bundle on macOS vs Windows. The HN frame implicitly defines agentic AI as something professionals integrate into their own workflow, not something done to them. Vertical, specialist, opt-in.\n\n**TechCrunch** centres access and hypocrisy. The capability — an AI agent that does penetration testing, exploit development and malware reverse-engineering — is treated as given; the story is who is *allowed* to wield it. Altman trash-talked Anthropic for gatekeeping Mythos, then gated GPT‑5.5 Cyber identically through the \"TAC\" tiered-access program. Dual-use governance, not capability, is the dominant frame.\n\n**Al Jazeera** zooms out to the state. The seven-vendor Pentagon deal is folded into Iran-war casualty counts, mass-deportation surveillance via Palantir, and Anthropic's refusal of the \"all lawful use\" provision. Agentic AI is barely named as such — it appears as \"autonomous weapons systems,\" \"decision superiority,\" targeting infrastructure. Anthropic is positioned as the rare corporate refusenik, not the cautious safetyist that US tech press portrays.\n\n### Three axes of divergence\n\n| Axis | Verge | HN | TechCrunch | Al Jazeera |\n|---|---|---|---|---|\n| **Where the agent sits** | Consumer app | Desktop pro tool | Corporate offering w/ gated buyers | State warfighting platform |\n| **What's the named risk** | None | None | Access misuse | Civilian death, surveillance |\n| **Anthropic's reputation** | n/a | n/a | Cautious gatekeeper, mocked by rival | Ethical holdout, praised by implication |\n\n### Aggregate picture\n\nThere is no single \"agentic AI\" news beat today. The same phrase maps onto incommensurable artefacts depending on which outlet you read — and the further from Silicon Valley the byline is, the more \"agency\" stops meaning *helpful* and starts meaning *accountable*. The TechCrunch–Al Jazeera pairing is especially telling: both stories revolve around Anthropic, but flip the company's moral valence by ~180°.",
+      "tags": [
+        "agentic-ai",
+        "autonomy",
+        "ai-policy",
+        "dual-use",
+        "anthropic",
+        "pentagon"
+      ],
+      "created_at": "2026-05-02T00:19:02+00:00",
+      "updated_at": "2026-05-02T00:19:02+00:00"
+    },
+    {
+      "id": "9820335f-2ffc-49fa-a79f-e1029b500e63",
+      "topic": "India 2026 state assembly elections — West Bengal, Assam, Tamil Nadu, Kerala, Puducherry",
+      "fetched_at": "2026-05-02T01:35:37+00:00",
+      "articles": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/assembly-elections-live-updates-may-2-2026-tamil-nadu-west-bengal-assam-kerala-pondicherry-results/article70930663.ece",
+          "headline": "Assembly elections 2026 LIVE: Repolling set to be carried out across 15 booths in West Bengal today",
+          "lead_snippet": "As per an ECI order, 15 polling booths in two Assembly constituencies in South 24 Parganas district of West Bengal are set to go for repolling today (May 2, 2026).",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=www.thehindu.com",
+          "framing_notes": [
+            "Procedural / institution-first lens: leads with the ECI order, exact booth counts, polling-hour windows",
+            "TMC voice foregrounded — quotes Shashi Panja on broken strong-room CCTVs and BJP 'provocation' allegation",
+            "Live-blog register: factual, low-temperature, no editorial adjectives",
+            "BJP 'breach of TMC fortress' angle relegated to a sidebar Also-Read link",
+            "Frames repolling as an administrative correction, not a contested political event"
+          ],
+          "published_at": "Sat, 02 May 2026 06:52:02 +0530"
+        },
+        {
+          "outlet": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/india/from-red-to-green-to-saffron-bjp-eyes-power-shift-in-bengal-as-mamata-defends-her-turf/articleshow/130680842.cms",
+          "headline": "From red to green to saffron? BJP eyes power shift in Bengal as Mamata defends her turf",
+          "lead_snippet": "The 2026 assembly elections have injected a new intensity into Bengal's political legacy — a high-stakes, high-voltage battle between Mamata Banerjee and an aggressively expanding BJP.",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=timesofindia.indiatimes.com",
+          "framing_notes": [
+            "Civilisational-arc narrative: Congress → Left (1977) → TMC (2011) → possible BJP era treated as the next inevitable chapter",
+            "Tilts toward BJP momentum — amplifies 'sun has set for TMC' line and exit-poll edge for the saffron party",
+            "Dramatic register: 'showdown', 'high-decibel', 'no seat conceded without a fight'",
+            "Mamata's EVM-manipulation allegation embedded as a video but framed as Didi's defensive posture, not a substantive claim",
+            "Reads voter turnout through the anti-incumbency lens, signalling expected change"
+          ],
+          "published_at": "Fri, 01 May 2026 20:33:16 +0530"
+        },
+        {
+          "outlet": "Indian Express",
+          "url": "https://indianexpress.com/elections/assembly-election-results-2026-live-updates-west-bengal-tamil-nadu-kerala-puducherry-assam-bjp-tmc-dmk-10665543/",
+          "headline": "Assembly Election Results 2026 Live Updates: 4 Bengal districts report post-poll violence, probe begins",
+          "lead_snippet": "Even before counting begins in West Bengal, four districts have reported post-poll violence; police have initiated separate probes. EC has ordered repolling based on state poll-machinery inputs.",
+          "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=indianexpress.com",
+          "framing_notes": [
+            "Pan-India aggregation: Bengal, Tamil Nadu, Kerala, Assam and Puducherry stitched into a single live-feed",
+            "Leads on violence and security: post-poll clashes in Malda, Murshidabad, both 24 Parganas; CAPF deployment",
+            "Exit-poll scepticism — explicitly notes Chanakya 'fell short by a considerable margin'",
+            "Surfaces a celebrity/cinematic angle in Tamil Nadu (Vijay's TVK) alongside the orthodox DMK-AIADMK story",
+            "Cites neutral institutional sources (police Joint CP, EC letter, PTI) more than party spokespeople"
+          ],
+          "published_at": "Fri, 01 May 2026 08:04:50 +0000"
+        }
+      ],
+      "synthesis": "\n# India 2026 State Assembly Elections — How Three Outlets Frame the Same Day\n\n**The day in question (May 1–2, 2026):** counting is imminent across West Bengal, Tamil Nadu, Kerala, Assam and Puducherry. The Election Commission has ordered repolling at 15 booths in South 24 Parganas, four Bengal districts have reported post-poll violence, exit polls broadly favour the BJP in Assam and tilt toward a tighter contest in Bengal, and Mamata Banerjee has publicly alleged EVM tampering. Three Indian outlets covered the *same* underlying facts very differently.\n\n## At a glance\n\n| Outlet | Primary lens | Whose voice leads | Tone |\n|---|---|---|---|\n| The Hindu | Procedural / ECI-first | TMC (Shashi Panja) | Cool, low-adjective live blog |\n| Times of India | Historical-strategic narrative | BJP high command + pollsters | Dramatic, momentum-laden |\n| Indian Express | Multi-state news-of-record | Police, EC, PTI | Even-handed, slightly sceptical |\n\n## Where the framings diverge\n\n**Scope.** The Hindu treats today as a single administrative beat — *the repolling order itself.* Times of India zooms out to an eight-decade arc of Bengal's political eras and treats the election as the next inflection point. Indian Express zooms out the other way — geographically — bundling five states into one rolling update, so Bengal's violence sits next to Vijay's TVK breakthrough projection in Tamil Nadu and Himanta Biswa Sarma's expected hold of Assam.\n\n**Posture toward the \"BJP wave\" narrative.** Times of India is the most committed to it: the headline phrase \"from red to green to saffron\" telegraphs the framing, the body amplifies the BJP claim that \"the sun has set for TMC,\" and exit polls are presented as confirming the trend. The Hindu does the opposite — it relegates the BJP-breach storyline to an *Also Read* sidebar and gives the lead voice to TMC's transparency complaint. Indian Express stress-tests the BJP-momentum frame: it explicitly notes that even the exit poll closest to reality (Chanakya) \"fell short by a considerable margin,\" puncturing the certainty other outlets project.\n\n**How Mamata's EVM allegation is handled.** ToI embeds the video but frames it as a defensive Didi posture in a contest she is losing. Indian Express treats it as a security-and-process story — quoting the Joint CP of Kolkata Traffic on additional CAPF deployment and CCTV i-cards, not the political claim itself. The Hindu echoes the same procedural concern but routes it through TMC's Panja questioning why \"the process is not fully transparent.\"\n\n**Sources tell you the angle.** The Hindu's quoted sources are almost entirely TMC; ToI leans on BJP leadership and pollsters; Indian Express leans on the EC, the police, and a wire agency (PTI). The story you read is largely the story the outlet's source list lets you read.\n\n## What the international press is *not* saying\n\nA notable absence: BBC, The Guardian and Al Jazeera have nothing prominent on these elections in today's feeds (BBC's lead election story is Brazil/Bolsonaro; Guardian's is UK Labour; Al Jazeera returned no match). For state-level Indian elections — even one as politically loaded as Bengal — the international wires aren't biting. The diffraction here is therefore an entirely *domestic* one, and the variation across The Hindu, ToI and Indian Express is most of what an English-reading audience will see.\n\n## Takeaway\n\nRead only Times of India and you'd believe the BJP wave is a near-certainty. Read only The Hindu and you'd see a routine procedural story with TMC raising legitimate process concerns. Read only Indian Express and you'd come away cautious about all the exit-poll claims and worried about post-poll violence. The same Saturday morning, three completely different elections.\n",
+      "tags": [
+        "india",
+        "elections",
+        "west-bengal",
+        "assam",
+        "tamil-nadu",
+        "tmc-vs-bjp",
+        "2026"
+      ],
+      "created_at": "2026-05-02T01:35:37+00:00",
+      "updated_at": "2026-05-02T01:35:37+00:00"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+
+=== 2026-05-01 19:28:14 starting prefab on :5175 ===
+Error: File not found: D
+
+=== 2026-05-01 19:28:15 starting prefab on :5175 ===
+Error: File not found: D
+
+=== 2026-05-01 19:31:51 starting prefab on :5175 ===
+✓ Serving at http://127.0.0.1:5175 (reload enabled)
+  Press Ctrl+C to stop
+
+↻ Change detected: server.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✗ Reload failed: 2 validation errors for Sparkline
+curve
+  Input should be 'linear', 'smooth' or 'step' 
+    For further information visit 
+https://errors.pydantic.dev/2.13/v/literal_error
+mode
+  Input should be 'line' or 'bar' 
+    For further information visit 
+https://errors.pydantic.dev/2.13/v/literal_error
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✗ Reload failed: 1 validation error for AccordionItem
+title
+  Field required 
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+↻ Change detected: dashboard.py
+✗ Reload failed: 1 validation error for AccordionItem
+title
+  Field required 
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: tests\test_e2e.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
+↻ Change detected: tools\coverage.py, tools\store.py
+✓ Reloaded — refresh your browser
+↻ Change detected: tools\ui.py
+✓ Reloaded — refresh your browser
+↻ Change detected: dashboard.py
+✓ Reloaded — refresh your browser
